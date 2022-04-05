@@ -32,15 +32,18 @@ export const styles = StyleSheet.create({
     },
     txtName: {
       fontFamily: 'Poppins-Bold',
-      fontSize: 18
+      fontSize: 18,
+      color: '#000'
     },
     txtPrice: {
-      fontFamily: 'Poppins-Regular',
+      fontFamily: 'Poppins-Bold',
       fontSize: 10,
-      marginTop: 10
+      marginTop: 10,
+      color: '#C4C4C4'
     },
     txtSellerPrice: {
       fontFamily: 'Poppins-Bold',
-      fontSize: 14
+      fontSize: 14,
+      color: '#000'
     }
 });
