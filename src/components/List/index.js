@@ -29,9 +29,7 @@ function maskPrice(priceInitial){
 export default function List(props){
   return (
       <View style={styles.container} >
-        <ScrollView
-          showsVerticalScrollIndicator={false}
-        >
+        <ScrollView>
         {props.items.map((val) => {
           return (
             <View style={styles.viewItem} key={val.uniqueId}>

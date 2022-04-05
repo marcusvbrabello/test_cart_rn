@@ -4,7 +4,10 @@ const heightWindow = Dimensions.get('window').height;
 
 export const styles = StyleSheet.create({
     container: {
-        flex: 1
+        flex: 1,
+        borderTopWidth: 1,
+        borderTopColor: '#CCC',
+        maxHeight: (heightWindow/3) * 0.3,
     },
     btnContainer: {
         backgroundColor: '#3b74f2',
@@ -12,7 +15,7 @@ export const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        margin: 20,
+        margin: 10,
         maxHeight: (heightWindow/3) * 0.2,
         borderRadius: 5
     },
